@@ -34,12 +34,14 @@ a{
     align-self:stretch;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .hero-left{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 400px;
+    /*width: 400px;*/
+    flex: 0 1 400px;
 }
 .hero-text{
     font-size:48px;
@@ -58,4 +60,42 @@ button{
     border:none;
     font-weight: bold;
     font-size: large;
+}
+.hero-img{
+    flex: 1 1 300px;
+    max-width:500px;/*
+    min-width: 50px;*/
+}
+.my-image{
+    width:100%;
+}
+.random-info-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+}
+.square-images{
+    display:flex;
+    gap: 40px;
+    font-size: 20px;
+    font-weight:normal;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    
+}
+.image{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0%;
+}
+.an-image{
+}
+.img-subtext{
+    text-align: center;
 }
