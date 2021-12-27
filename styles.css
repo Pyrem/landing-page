@@ -37,7 +37,7 @@ a{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 100px;
+    padding: 50px;
 }
 .hero-left{
     display:flex;
@@ -157,4 +157,15 @@ button{
 .signup-button{
     border-style: solid;
     border-width: 2px;
+}
+footer{
+    background-color: #1F2937;
+    padding: 30px;
+    display:flex;
+    align-self: stretch;
+    justify-content: center;
+}
+.footer-text{
+    font-size: 18px;
+    color: #E5E7EB;
 }
