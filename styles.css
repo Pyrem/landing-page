@@ -35,13 +35,15 @@ a{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .hero-left{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
     /*width: 400px;*/
-    flex: 0 1 400px;
+    flex: 1 1 300px;
+    max-width: 400px;
 }
 .hero-text{
     font-size:48px;
