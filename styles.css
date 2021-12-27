@@ -133,3 +133,28 @@ button{
     font-weight:bold;
     align-self: flex-end;
 }
+.call-to-action{
+    color:#F9FAF8;
+    padding: 100px;
+}
+.signup-dialog-box{
+    background-color: #3882F6;
+    display:flex;
+    padding:50px;
+    gap: 50px;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.signup-left{
+
+}
+.signup-exclamation{
+    font-weight: bold;
+    font-size: x-large;
+}
+.signup-subtext{
+}
+.signup-button{
+    border-style: solid;
+    border-width: 2px;
+}
